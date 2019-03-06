@@ -38,6 +38,13 @@ Fixed
 - Handles slot names which contain characters that are invalid as python variable name (e.g. dot) in a template
 - When a ``fork`` is used in interactive learning, every forked storyline is saved (not just the last)
 
+[0.13.3] - 2019-03-04
+^^^^^^^^^^^^^^^^^^^^^
+
+Added
+-------
+- Tracker Store Mongo DB's documentation now has ``auth_source`` parameter, which is used for passing database name associated with the user's credentials.
+
 [0.13.2] - 2019-02-06
 ^^^^^^^^^^^^^^^^^^^^^
 
