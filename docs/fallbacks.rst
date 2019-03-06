@@ -19,6 +19,7 @@ The thresholds and fallback action can be adjusted in the policy configuration
 file as parameters of the ``FallbackPolicy``:
 
 .. code-block:: yaml
+
   policies:
     - name: "FallbackPolicy"
       # min confidence needed to accept an NLU prediction
